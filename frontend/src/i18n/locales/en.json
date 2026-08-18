@@ -1,0 +1,266 @@
+{
+  "meta": {
+    "title": "Basira AI — See what your data is trying to tell you"
+  },
+  "nav": {
+    "home": "Home",
+    "features": "Features",
+    "howItWorks": "How it works",
+    "pricing": "Pricing",
+    "about": "About",
+    "dashboard": "Dashboard",
+    "chat": "Chat",
+    "cta": "Get started"
+  },
+  "hero": {
+    "eyebrow": "Excel · CSV · PDF, understood",
+    "headline_1": "Your files can talk.",
+    "headline_2": "Basira listens.",
+    "subheadline": "Drop in a spreadsheet or a PDF and Basira reads it, charts it, and answers your questions in plain Arabic or English — no formulas required.",
+    "cta_primary": "Upload a file",
+    "cta_secondary": "Watch it work",
+    "trust_line": "No spreadsheet skills needed · Your files stay private",
+    "scan_label": "Reading file…",
+    "scan_done": "3 sheets, 12,480 rows understood",
+    "mock_filename": "Q3_regional_sales.xlsx",
+    "mock_insight": "Revenue is up 18% in the East region, driven mostly by August."
+  },
+  "dashboardMock": {
+    "overview": "Overview",
+    "rows": "Total rows",
+    "columns": "Total columns",
+    "missing": "Missing values",
+    "time": "Analyzed in",
+    "insightsTitle": "AI insights",
+    "insightsText": "Sales show a strong upward trend in Q2 and Q3. East and North regions drive 68% of total revenue.",
+    "topCategoriesTitle": "Top categories",
+    "categories": [
+      {
+        "label": "Category A",
+        "value": 42
+      },
+      {
+        "label": "Category B",
+        "value": 26
+      },
+      {
+        "label": "Category C",
+        "value": 22
+      },
+      {
+        "label": "Other",
+        "value": 10
+      }
+    ],
+    "salesTrendTitle": "Sales trend",
+    "dataQualityTitle": "Data quality",
+    "qualityScoreLabel": "High quality",
+    "checklist": [
+      "No duplicates",
+      "Valid data types",
+      "Consistent format",
+      "Low missing values"
+    ]
+  },
+  "banner": {
+    "eyebrow": "Live with your data",
+    "title": "Ask it. Basira answers — from your file, not a guess.",
+    "subtitle": "Move your cursor across the panel, or just watch: this is the same kind of answer Basira gives once your file is uploaded.",
+    "cta": "Try it with your file",
+    "ticker": [
+      "Which month had the highest sales?",
+      "Summarize this report in three lines.",
+      "Show me rows with missing values.",
+      "What's driving the drop in March?",
+      "Chart revenue by region."
+    ]
+  },
+  "upload": {
+    "title": "Start with a file, not a blank page",
+    "subtitle": "Excel, CSV, or PDF — up to 500MB. Basira handles the reading; you ask the questions.",
+    "dropzone_title": "Drag files here, or click to browse",
+    "dropzone_subtitle": "XLSX, XLS, CSV, PDF",
+    "multiple_hint": "Drop several files at once — each gets its own dashboard",
+    "supported": "Supported formats",
+    "max_size": "Max 500MB per file",
+    "uploading": "Uploading…",
+    "analyzing": "Analyzing your file…",
+    "retry": "Retry",
+    "openDashboard": "Open dashboard",
+    "askTogether": "Ask about all of them",
+    "askTogetherHint": "{{count}} files ready — ask about them together",
+    "error_generic": "Something went wrong while uploading. Please try again.",
+    "error_network": "Can't reach the server. Is the backend running?",
+    "error_size": "That file is larger than 500MB.",
+    "error_type": "Unsupported file type. Use XLSX, XLS, CSV, or PDF."
+  },
+  "features": {
+    "title": "Everything you'd do in a spreadsheet, minus the spreadsheet",
+    "subtitle": "Basira reads structure and meaning at once — rows and columns for data files, headings and tables for PDFs.",
+    "items": [
+      {
+        "title": "Instant statistics",
+        "description": "Row and column counts, missing values, duplicates, and data types — calculated the moment your file lands."
+      },
+      {
+        "title": "Charts without formulas",
+        "description": "Basira picks the right chart for your data and builds pie, line, bar, and scatter views automatically."
+      },
+      {
+        "title": "PDF, actually read",
+        "description": "Text, tables, and headings are extracted so reports and contracts become searchable, summarized documents."
+      },
+      {
+        "title": "Ask in plain language",
+        "description": "\"Which month had the highest sales?\" gets answered directly from your own file, not a generic guess."
+      },
+      {
+        "title": "Anomalies, flagged",
+        "description": "Basira surfaces the outlier row, the missing quarter, the number that doesn't match the rest."
+      },
+      {
+        "title": "Built to switch languages",
+        "description": "Arabic and English, right to left or left to right, with no reload and no layout breaking."
+      }
+    ]
+  },
+  "dashboardPreview": {
+    "eyebrow": "Dashboard",
+    "title": "One screen, the whole file explained",
+    "subtitle": "Summary, charts, statistics, and AI insights land in the same view the moment processing finishes.",
+    "card_rows": "Rows",
+    "card_columns": "Columns",
+    "card_missing": "Missing values",
+    "card_duplicates": "Duplicate rows",
+    "insight_title": "AI insight",
+    "insight_text": "Sales dipped 9% in March, tracking a known regional supply delay.",
+    "chart_title": "Revenue by region"
+  },
+  "chatPreview": {
+    "eyebrow": "Chat",
+    "title": "Talk to your file like it's a colleague",
+    "subtitle": "Every answer is grounded in the file you uploaded — with the exact rows behind it, one click away.",
+    "user_msg": "Which product line underperformed this quarter?",
+    "ai_msg": "Home Appliances, down 12% versus Q2 — mainly the July–August period. Want the breakdown by city?",
+    "suggested_1": "Summarize this report",
+    "suggested_2": "Show missing values",
+    "suggested_3": "Create a sales chart",
+    "input_placeholder": "Ask anything about this file…"
+  },
+  "howItWorks": {
+    "title": "From file to answer in three steps",
+    "subtitle": "No setup, no data modeling — just upload and ask.",
+    "steps": [
+      {
+        "title": "Upload",
+        "description": "Drag in an Excel, CSV, or PDF file. Basira detects its structure automatically."
+      },
+      {
+        "title": "Analyze",
+        "description": "Rows, columns, and text are parsed, cleaned, and charted in seconds."
+      },
+      {
+        "title": "Ask",
+        "description": "Chat with the file directly and get answers, summaries, and recommendations."
+      },
+      {
+        "title": "Decide",
+        "description": "Act on clear, sourced answers instead of digging through rows yourself."
+      }
+    ]
+  },
+  "footer": {
+    "tagline": "AI-powered file analysis that turns spreadsheets and PDFs into clear, plain-language insights.",
+    "product": "Product",
+    "company": "Company",
+    "resources": "Resources",
+    "legal": "Legal",
+    "links": {
+      "features": "Features",
+      "dashboard": "Dashboard",
+      "chat": "Chat",
+      "pricing": "Pricing",
+      "about": "About",
+      "contact": "Contact",
+      "blog": "Blog",
+      "docs": "Documentation",
+      "help": "Help center",
+      "privacy": "Privacy",
+      "terms": "Terms"
+    },
+    "newsletter": {
+      "title": "Stay updated",
+      "subtitle": "Product news and tips, a couple of times a month.",
+      "placeholder": "Enter your email",
+      "success": "You're subscribed."
+    },
+    "rights": "All rights reserved."
+  },
+  "common": {
+    "language": "Language"
+  },
+  "chatPage": {
+    "backToDashboard": "Back to dashboard",
+    "emptyTitle": "Ask Basira anything about this file",
+    "emptySubtitle": "Answers are grounded in the data you uploaded — not a generic guess.",
+    "thinking": "Basira is thinking…",
+    "sendError": "Couldn't get an answer. Please try again.",
+    "notConfigured": "AI chat isn't available yet — add a Groq API key on the backend to enable this.",
+    "retry": "Try again",
+    "combinedNeedsTwo": "Select at least 2 files to ask about them together.",
+    "combinedTitle": "Asking across {{count}} files",
+    "combinedSuggestion": "Compare the numbers across these files"
+  },
+  "dashboardPage": {
+    "newFile": "New file",
+    "export": "Export",
+    "loadingFile": "Loading your file…",
+    "errorLoading": "Couldn't load this file.",
+    "retryLoad": "Try again",
+    "qualityScore": "Data quality score",
+    "columns": {
+      "title": "Fields",
+      "types": {
+        "numeric": "Number",
+        "categorical": "Category",
+        "datetime": "Date",
+        "text": "Text"
+      }
+    },
+    "overview": {
+      "rows": "Rows",
+      "columns": "Columns",
+      "missing": "Missing values",
+      "duplicates": "Duplicate rows"
+    },
+    "charts": {
+      "title": "Charts",
+      "empty": "Not enough structure in this file to auto-generate charts."
+    },
+    "insights": {
+      "title": "AI insights",
+      "loading": "Basira is reading your file…",
+      "refresh": "Regenerate",
+      "retry": "Try again",
+      "notConfigured": "AI insights aren't available yet — add a Groq API key on the backend to enable this.",
+      "keyPoints": "Key points",
+      "anomalies": "Anomalies",
+      "recommendations": "Recommendations",
+      "importantNumbers": "Important numbers",
+      "faq": "Frequently asked questions"
+    },
+    "pdf": {
+      "headings": "Document outline",
+      "tables": "Extracted tables",
+      "textPreview": "Extracted text",
+      "showMore": "Show more",
+      "showLess": "Show less",
+      "page": "Page"
+    },
+    "chatCta": "Ask questions about this file",
+    "chatSubtitle": "Chat with Basira about what's in this file"
+  },
+  "myFiles": {
+    "title": "My files"
+  }
+}
